@@ -1,7 +1,7 @@
 name: Lint and terraform init,plan,apply
 on:
   push:
-    branches: [master]
+    branches: main
 
 jobs:
   tflint:
